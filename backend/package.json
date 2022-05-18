@@ -1,0 +1,28 @@
+{
+  "name": "Desafio-Tecnico-Trybe",
+  "version": "1.0.0",
+  "description": "Desafio Trybe",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start src/loader.js --name todo-app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kdulima/Desafio-Tecnico-Trybe.git"
+  },
+  "keywords": [],
+  "author": "Carlos Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kdulima/Desafio-Tecnico-Trybe/issues"
+  },
+  "homepage": "https://github.com/Kdulima/Desafio-Tecnico-Trybe#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3",
+    "node-restful": "^0.2.6",
+    "pm2": "^5.2.0"
+  }
+}
